@@ -27,10 +27,10 @@ function appendDriver(name){
 function prependDriver(name){
   const newDrivers =['Arnold', ...drivers]
   return newDrivers
-  console.log(newDrivers)
+
 }
 
-function removeLastDriver(editDrivers){
+function removeLastDriver(name){
   drivers.pop();
   return drivers;
 }
