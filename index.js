@@ -24,12 +24,12 @@ function appendDriver(allDrivers){
   return allDrivers
 }
 
-function prependDriver(name){
+function prependDriver(newDrivers){
   const newDrivers =['Arnold', ...drivers]
   return newDrivers
 }
 
-function removeLastDriver(allDrivers){
+function removeLastDriver(editDrivers){
   allDrivers.pop();
   return allDrivers;
 }
